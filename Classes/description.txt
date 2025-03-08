@@ -1,0 +1,62 @@
+A sword wields no strength unless the hand that holds it has courage
+
+"Hey! Listen! It's time to wake up and begin your quest!" That's what the shiny flying thing told me before leaving without any other explanation... So I took my sword and my shield and started to explore the world to find what was going on.
+
+[b]Any question or problem to use this mod? [url=http://steamcommunity.com/sharedfiles/filedetails/?id=314929396]Click here to read the FAQ.[/url][/b]
+
+[b]FEATURES[/b]
+- Hero Goat: You can use a sword and a shield.
+- Hero Sword: [Locked] You have a Hero Sword and a Mirror Shield.
+- Hero Theme: Play the music of heroes.
+- Hero Vision: [Locked] You see the world as a drawing (Borderlands style).
+
+[b]COMMANDS[/b]
+- [b][LeftClick]:[/b] Swing attack.
+- [b][LeftClick]:[/b] Hold to charge a Spin attack.
+- [b][LeftClick]:[/b] Release for a Spin attack.
+- [b][RightClick]:[/b] Use shield.
+
+[b]GAMEPAD COMMANDS[/b]
+- [b][RT]:[/b] Swing attack.
+- [b][RT]:[/b] Hold to charge a Spin attack.
+- [b][RT]:[/b] Release for a Spin attack.
+- [b][LT]:[/b] Use shield.
+
+[b]CHARACTERISTICS[/b]
+- The sword attacks will throw away everything you hit.
+- The sword attacks do real damages to MMO enemies and GoatZ Zombies.
+- Holding the sword will not do any damage.
+- When the spin attack is ready, you hear a sound a your sword glow.
+- The Spin attack is twice as powerful as the swing attack.
+- The shield can block objects and sword attacks.
+- When shielding, your speed is limited.
+- You can't use your sword and shield when ragdoll.
+[h1]Hero Sword / Mirror Shield[/h1]
+- To unlock it you need to find the Hero Sword pedestal.
+- There is one pedestal for each player using the mutator.
+- The Hero Sword is twice as powerful as the normal sword.
+- Every time you do a swing attack, a laser sword will be shot.
+- You can't shoot laser swords if you have been ragdolled during the last 10s.
+- Laser swords will fly forward until they hit something and do the same damages as a swing attack.
+- Using the Hero Sword will also give you a Mirror Shield.
+- The Mirror Shield can reflect laser swords.
+
+[b]EASTER EGGS[/b]
+- [spoiler]If you are really hopeless, a faery companion will come and help you.[/spoiler][spoiler]Hopeless people lie on the floor and stop moving.[/spoiler]
+- [spoiler]The faery knows where is the Hero Sword pedestal, so if you hear it talk you may be looking in the right direction.[/spoiler]
+- [spoiler]If you manage to find the Hero Sword pedestal alone (without faery), you will deserve to use the Hero Vision.[/spoiler]
+
+[b]KNOWN BUGS[/b]
+- The sword can sometimes pass through people without touching them.
+- The shield may fail to block some attacks.
+- The sword speed trail effect can sometimes become glitchy.
+- The laser swords can sometimes fail to hit goats.
+- The mirror shield can sometimes fail to reflect laser swords.
+
+[b]DEV NOTES[/b]
+[quote=About this mod]I'm finally done with this mod :D I can't remember the longest time I spent on a mod already, but this one took me a long time for sure X) Good thing that I didn't try to add this in the MMORPGoat mod as I was planning to do or it would not be out yet... Anyway I really wanted to make this mod as good as possible so I took the time needed for that :p
+There was a few challenges for me to solve in this mod: First, making a usable sword and shield. Making them actually collide with people and objects and only when I wanted to (no collision when they are on your back) was not as easy as it seems. Anyway after finding the correct functions I got it working and that was really enjoyable to play with ^^
+As you probably noticed, I literally copied the attacks of Link in the classic Zelda games, and I tried to make my version as close as possible to the original ;) That's why I also added a master sword upgrade system (the Hero Sword) with a pedestal randomly placed in the world. For more fun I added a "repulsion" effect on this pedestal, so that only goats who deserve it can get the Hero Sword! Understand: only goats using the mutator can actually take the sword.
+Then I started to work on the most fun part of this mod: the laser swords :D Still trying to mimic the original Zelda mechanisms, I made the Hero Sword "shoot" laser copies of itself. I had some trouble to make those swords actually fly properly and in the right direction, but after messing enough with their physics properties I eventually got a satisfying result.
+And finally, since the last game update I knew that the cel shading effect (or Borderlands effect, or whatever) should now be working so I really wanted to include it in this mod (as some Zelda games also use this kind of graphisms). The first thing I saw when I tried it was a big blue and white default texture in fullscreen XD Which means the visual effect was not correctly configured to work in this game... Anyway I wanted it really hard so I started messing with the post process effect itself in the editor until I found a way to make it correctly visible ^^ After that I spend a lot of time tweaking the parameters of the effect to get something good looking: at the beginning almost all the screen was black in the foreground because there as way too much lines drawn everywhere >_< In the end, the solution came from SKaa3w (a big thanks to him!) who posted a customized version of this visual effect on [url=https://forums.epicgames.com/threads/988232-UDK-x-UT3-Sobel-Edge-Detection-Post-Process-Effect-VFIX-(-Download-)]the unreal forums[/url]. That version was almost rendering perfectly on Goat Simulator, I only modified it a bit to adjust the size of the black lines and have a really good looking result ^^
+[/quote]
